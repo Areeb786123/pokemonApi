@@ -23,4 +23,5 @@ public class PokemonController {
     public PokemonModels addPokemon(@RequestBody  PokemonModels pokemonData) {
         return pokemonRepository.save(pokemonData);
     }
+
 }
